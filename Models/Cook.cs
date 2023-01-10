@@ -49,13 +49,13 @@ namespace AnnaWebKitchenFin.Models
         {
             cooks.AddRange(new Cook[]
             {
-               new Cook(1, 1, "LineCook", "Is this okay Mr. Ramsay?", kitchen),
+               new Cook(3, 4, "LineCook", "Is this okay Mr. Ramsay?", kitchen),
 
                new Cook(2, 3, "Saucier", "You better go get the lamb sauce", kitchen),
 
-               new Cook(3, 3, "Saucier", "You better go get the lamb sauce", kitchen),
+               new Cook(2, 2, "Saucier", "You better go get the lamb sauce", kitchen),
 
-               new Cook(4, 4, "Chef", "Where is the lamb sauce? The chicken is RAW", kitchen)
+               new Cook(1, 2, "Chef", "Where is the lamb sauce? The chicken is RAW", kitchen)
 
             });
 

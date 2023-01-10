@@ -45,6 +45,7 @@ namespace AnnaWebKitchenFin.Models
             apparatuses.AddRange(new CookingApparatus[]
             {
                 new CookingApparatus(CookingApparatusType.Oven),
+                new CookingApparatus(CookingApparatusType.Oven),
                 new CookingApparatus(CookingApparatusType.Stove)
             });
         }
